@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
     s.add_dependency 'activerecord-jdbcpostgresql-adapter'
   end
 
-  s.add_runtime_dependency 'activerecord', '~> 5.0'
+  s.add_runtime_dependency 'activerecord', '>= 5', '< 9'
   s.add_runtime_dependency 'railties', '>= 5.0'
 
   s.add_development_dependency 'bundler', '~> 1.7'
